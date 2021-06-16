@@ -1,8 +1,8 @@
-import Navbar from './Navbar';
-import Carousel from './Carousel';
-import About from './About';
-import PizzaStore from './PizzaStore';
-import ContactUs from './Footer';
+import Navbar from '../public/Components/Navbar/Navbar';
+import Carousel from '../public/Components/Carousel/Carousel';
+import About from '.../public/Components/About/About';
+import PizzaStore from '../public/Components/PizzaStore/PizzaStore';
+import Footer from '../public/Components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
      <Carousel/>
      <About/>
      <PizzaStore/>
-     <ContactUs/>
+     <Footer/>
     </div>
   );
 }
